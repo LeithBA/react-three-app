@@ -1,12 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <App style={{ position: "absolute", width: "100vw", height: "100vh" }} />
   </React.StrictMode>,
   document.getElementById('root')
 );
